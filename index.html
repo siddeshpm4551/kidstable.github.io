@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Math Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="mdb.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">JS Math Table</a>
+    </nav>
+
+   <div class="container my-3">
+       <div class="row">
+           <div class="col-md-8">
+               <div class="card animated jackInTheBox">
+                   <div class="card-header bg-primary text-white">
+                       <h3>Kids Math Table</h3>
+                   </div>
+                   <div class="card-body">
+                       <div class="row">
+                           <div class="col-md-4">
+                               <form id="forms">
+                                   <div class="form-group">
+                                       <label for="">Enter a Number</label>
+                                       <input type="number" class="form-control" placeholder="Your Number" id="input">
+                                   </div>
+                               </form>
+                           </div>
+                           <div class="col-md-8">
+                               <label for="customrange">Select The Multiplier</label>
+                                <input type="range" class="custom-range" id="customrange" min="1" max="10" value="1">
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <div class="container">
+       <div class="row">
+           <div class="col-md-8">
+               <div class="card animated zoomIn delay-1s">
+                   <div class="card-body bg-light">
+                       <div class="row align-items-center">
+                           <div class="col-md-2">
+                               <h1 class="display-4">
+                                   <span id="num1" class="badge badge-secondary">1</span></h1>
+                           </div>
+                           <div class="col-md-2">
+                                <h1 class="display-4">
+                                <i class="fa fa-times"></i>
+                            </div>
+                            <div class="col-md-2">
+                                <h1 class="display-4">
+                                    <span id="num2" class="badge badge-secondary">1</span></h1>
+                            </div>
+                            <div class="col-md-2">
+                                <h1 class="display-2">
+                                    =
+                            </div>
+                            <div class="col-md-2">
+                                <h1 class="display-4">
+                                    <span id="num3" class="badge badge-secondary">1</span></h1>
+                            </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+    
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="mdb.js"></script>
+    <script src="math.js"></script>
+</body>
+</html>

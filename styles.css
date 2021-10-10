@@ -1,0 +1,6 @@
+body{
+    background-color: lightblue;
+}
+.bg-dark{
+    background: linear-gradient(45deg,darkgreen,lightblue,darkblue);
+}
